@@ -1,4 +1,3 @@
-
 import { useEffect } from "react";
 import { Check, Play } from "lucide-react";
 import { Button } from "@/components/ui/button";
@@ -15,11 +14,11 @@ const ThankYou = () => {
   }, []);
 
   const handleStartWatching = () => {
-    window.open("https://quiz.cakto.com.br/lioni-tv-bJKUmW-PveIZr", "_blank");
+    window.open("http://wa.me/5599984081880", "_blank");
   };
 
   const handleGoHome = () => {
-    window.open("http://wa.me/5599984081880", "_blank");
+    window.open("https://quiz.cakto.com.br/lioni-tv-bJKUmW-PveIZr", "_blank");
   };
 
   return (
